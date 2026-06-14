@@ -34,9 +34,13 @@ export default function SideNav() {
           <span className="material-symbols-outlined">receipt_long</span>
           <span className="font-body-md text-body-md">Transactions</span>
         </a>
-        <a className={activeClass('budgets')} href="#">
+        <a className={activeClass('budgets')} href="#budgets">
           <span className="material-symbols-outlined">account_balance_wallet</span>
           <span className="font-body-md text-body-md">Budgets</span>
+        </a>
+        <a className={activeClass('advisor')} href="#advisor">
+          <span className="material-symbols-outlined">lightbulb</span>
+          <span className="font-body-md text-body-md">AI Advisor</span>
         </a>
         <a className={activeClass('categories')} href="#">
           <span className="material-symbols-outlined">category</span>
