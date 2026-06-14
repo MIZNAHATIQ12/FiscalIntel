@@ -55,22 +55,22 @@ export default function GmailIntegration() {
               </button>
             </div>
           </header>
-          <div className="p-lg lg:p-2xl max-w-6xl mx-auto">
-            <div className="mb-2xl">
-              <h3 className="font-headline-lg text-headline-lg text-on-surface mb-xs">Gmail Intelligence</h3>
-              <p className="text-on-surface-variant font-body-lg">Automate your financial tracking with secure email parsing.</p>
+          <div className="p-lg lg:p-2xl space-y-2xl w-full max-w-full">
+            <div className="max-w-5xl mb-lg">
+              <h3 className="font-headline-lg text-headline-lg text-on-surface mb-2">Gmail Intelligence</h3>
+              <p className="text-on-surface-variant font-body-lg max-w-2xl">Automate your financial tracking with secure email parsing.</p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-xl">
-              <div className="lg:col-span-4 space-y-lg">
-                <div className="glass-card rounded-xl p-xl shadow-sm">
-                  <div className="flex items-center justify-between mb-xl">
+            <div className="grid grid-cols-1 xl:grid-cols-[360px_minmax(0,1fr)] gap-lg">
+              <div className="space-y-lg">
+                <div className="glass-card rounded-xl p-lg shadow-sm">
+                  <div className="flex items-center justify-between mb-lg">
                     <h4 className="font-title-lg text-title-lg">Connection</h4>
                     <span className="flex items-center gap-xs text-secondary font-label-md">
                       <span className="w-2 h-2 rounded-full bg-secondary"></span>
                       Active
                     </span>
                   </div>
-                  <div className="flex items-center gap-md mb-xl p-md bg-surface-container-low rounded-lg">
+                  <div className="flex items-center gap-md mb-lg p-md bg-surface-container-low rounded-lg">
                     <div className="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm border border-outline-variant">
                       <img alt="Google logo" className="w-6 h-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuwb7EIrLOxJq3pCqUtTzStizPs6SV1t9EJWZhNq78rB1GLziPwrOPeNRnhimZSMnjNeO5Wa2ttDBCEdWixkQv5iyonF8ViTGVYg95w_0LdoSNaLAJ2IrXtRkJ1PD9_KjugZPDUn8zqN7kf8Ba2YGJk3p5pIA6VHsgTG0IhMB6yN5zUCa3iVOOvvkIUu63pcJCGsXCI5_fxnz4W7Fh7ANN7Sm0pWyvnzJY7cKZG6qhxNQvLe7VIL-6nDNqvkwgSjlG5uSg0njAznvF" />
                     </div>
@@ -83,7 +83,7 @@ export default function GmailIntegration() {
                     Disconnect Integration
                   </button>
                 </div>
-                <div className="glass-card rounded-xl p-xl shadow-sm">
+                <div className="glass-card rounded-xl p-lg shadow-sm">
                   <h4 className="font-label-md text-label-md text-outline uppercase mb-md">Quick Stats</h4>
                   <div className="space-y-md">
                     <div className="flex justify-between items-center">
@@ -104,10 +104,10 @@ export default function GmailIntegration() {
                   </div>
                 </div>
               </div>
-              <div className="lg:col-span-8 space-y-lg">
-                <div className="glass-card rounded-xl p-xl shadow-sm relative overflow-hidden">
-                  <h4 className="font-title-lg text-title-lg mb-2xl">Automation Pipeline</h4>
-                  <div className="relative flex justify-between items-center px-xl py-xl">
+              <div className="space-y-lg">
+                <div className="glass-card rounded-xl p-lg shadow-sm relative overflow-hidden">
+                  <h4 className="font-title-lg text-title-lg mb-lg">Automation Pipeline</h4>
+                  <div className="relative flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between px-lg py-lg">
                     <div className="absolute left-0 right-0 top-1/2 -translate-y-1/2 px-2xl">
                       <div className="flow-line w-full rounded-full overflow-hidden">
                         <div className="flow-dot" style={{ left: '20%' }}></div>
@@ -143,7 +143,7 @@ export default function GmailIntegration() {
                       </div>
                     </div>
                   </div>
-                  <div className="mt-xl pt-xl border-t border-outline-variant flex items-center justify-between">
+                  <div className="mt-lg pt-lg border-t border-outline-variant flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
                     <div className="flex items-center gap-md">
                       <div className="w-3 h-3 bg-secondary rounded-full sync-pulse"></div>
                       <span className="text-body-md text-on-surface-variant italic">System is currently listening for new transaction emails...</span>
@@ -152,7 +152,7 @@ export default function GmailIntegration() {
                   </div>
                 </div>
                 <div className="glass-card rounded-xl overflow-hidden shadow-sm">
-                  <div className="p-xl border-b border-outline-variant flex justify-between items-center">
+                  <div className="p-lg border-b border-outline-variant flex justify-between items-center">
                     <h4 className="font-title-lg text-title-lg">Recent Imports</h4>
                   </div>
                   <table className="w-full text-left">
@@ -227,7 +227,7 @@ export default function GmailIntegration() {
                 </div>
               </div>
             </div>
-            <section className="mt-3xl grid grid-cols-1 md:grid-cols-3 gap-xl">
+            <section className="mt-xl grid grid-cols-1 md:grid-cols-3 gap-lg">
               <div className="flex gap-md items-start">
                 <span className="material-symbols-outlined text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>
                   verified_user
