@@ -55,7 +55,7 @@ export default function SideNav() {
           <span className="font-body-md text-body-md">Reports</span>
         </a>
         <div className="pt-lg mt-lg border-t border-outline-variant">
-          <a className={activeClass('gmail')} href="#">
+          <a className={activeClass('gmail')} href="#gmail">
             <span className="material-symbols-outlined">mail</span>
             <span className="font-body-md text-body-md">Gmail Integration</span>
           </a>

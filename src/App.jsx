@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Dashboard from './Dashboard.jsx'
 import Transactions from './Transactions.jsx'
+import GmailIntegration from './GmailIntegration.jsx'
 
 export default function App() {
   const [route, setRoute] = useState(() => (typeof window !== 'undefined' && window.location.hash ? window.location.hash.replace('#', '') : 'dashboard'))
@@ -12,5 +13,6 @@ export default function App() {
   }, [])
 
   if (route === 'transactions') return <Transactions />
+  if (route === 'gmail') return <GmailIntegration />
   return <Dashboard />
 }
