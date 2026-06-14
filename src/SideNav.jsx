@@ -46,7 +46,7 @@ export default function SideNav() {
           <span className="material-symbols-outlined">category</span>
           <span className="font-body-md text-body-md">Categories</span>
         </a>
-        <a className={activeClass('savings')} href="#">
+        <a className={activeClass('savings')} href="#savings">
           <span className="material-symbols-outlined">savings</span>
           <span className="font-body-md text-body-md">Savings Goals</span>
         </a>

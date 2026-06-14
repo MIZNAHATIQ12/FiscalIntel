@@ -3,6 +3,7 @@ import Dashboard from './Dashboard.jsx'
 import Transactions from './Transactions.jsx'
 import GmailIntegration from './GmailIntegration.jsx'
 import AIAdvisor from './AIAdvisor.jsx'
+import SavingsGoals from './SavingsGoals.jsx'
 import BudgetManagement from './BudgetManagement.jsx'
 
 export default function App() {
@@ -18,5 +19,6 @@ export default function App() {
   if (route === 'gmail') return <GmailIntegration />
   if (route === 'advisor' || route === 'insights') return <AIAdvisor />
   if (route === 'budgets') return <BudgetManagement />
+  if (route === 'savings') return <SavingsGoals />
   return <Dashboard />
 }
